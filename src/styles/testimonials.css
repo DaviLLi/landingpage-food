@@ -27,6 +27,21 @@
     margin-top: 30px;
 }
 
+#form {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+}
+
+.box {
+    width: 595px;
+    height: 80px;
+    border-radius: 12px;
+    border-color: var(--color-neutral-9);
+    padding-left: 12px;
+    padding-top: 8px;
+}
+
 .feedback {
     display: flex;
     align-items: center;
@@ -51,6 +66,10 @@
 }
 
 .feedback-content p span {
+    color: var(--color-primary-6);
+}
+
+.section-form {
     color: var(--color-primary-6);
 }
 
